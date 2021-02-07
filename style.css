@@ -1,0 +1,62 @@
+.searce{
+    text-align: center;
+    background-color: aqua;
+    color: rgb(255, 0, 0);
+}
+.button{
+    margin-left: 20px;
+}
+#foodArea {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 30px;
+
+}
+
+#foodArea img {
+    width: 100%;
+    border-radius: 20px 20px 0px 0px;
+    width: 100%;
+}
+
+.food {
+    box-shadow: 5px 5px 10px gray;
+    text-align: center;
+    border-radius: 20px;
+    text-align: center;
+}
+
+#ingredients {
+    width: 50%;
+    margin: auto;
+}
+
+.food-name {
+    padding: 20px;
+    font-size: 20px;
+}
+
+.ingredient-name {
+    padding: 25px 0px;
+    font-weight: 700;
+}
+
+.IngredientID-title {
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+li {
+    margin-left: -30px;
+    list-style: none;
+    font-size: 18px;
+}
+
+img.ingredient-img {
+    border-radius: 20px;
+    width: 100%;
+}
+
+.ingredient {
+    margin-bottom: 50px;
+}
